@@ -1,0 +1,27 @@
+{
+  "name": "git-hooks",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Erro: no test specified\\\" && exit 1\"",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grafstyle/Git-Hooks.git"
+  },
+  "author": "Carlos Azaustre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grafstyle/Git-Hooks/issues"
+  },
+  "homepage": "https://github.com/grafstyle/Git-Hooks#readme",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0"
+  },
+  "script": {
+    "prepare": "husky install"
+  }
+}
