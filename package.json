@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/grafstyle/Git-Hooks#readme",
   "devDependencies": {
+    "eslint": "^8.36.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.0"
   },
